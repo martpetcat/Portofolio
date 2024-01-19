@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="slideshows.css"  />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><strong>Mart!*</strong></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Martin Petkov</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="profile-pic.png"/> 
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Martin Petkov</h1>
+        <p class="section__text__p2">ICT Media and Design<p>
+
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.location.href='./assets/MyPEP.odt'" download="MyPEP.odt"> <!-- add the week 1- 7 portfolio-->
+            Download Portfolio
+
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='#contact'"> 
+            Contact Info
+
+          </button>
+
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture" 
+            class="about-pic"
+          /> <!--Idea- txt a custom font between Lordish and some outline font make it go through th picture (has to somehow not go over it)-->
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Here you can find most if <br>not <u>all</u> of my work</h3>
+            </div>
+            
+          </div>
+          </div>
+          <div class="text-container">
+            <p>
+                <strong>Greetings and Welcome to my portfolio website.</strong><br> My name is Martin, I'm a Bulgarian student in Fontys ICT, Eindhoven.
+                Currently a 1st year with a small technical yet expanding background. The title of my portfolio <b>...Always Work In Progress...</b>
+                is inspired from the personal challenges I had to overcome to get to the point where am somewhat satisfied with my website. I have found a way to express myself through this blend of creative and technical work. Being ambitious yet unexperienced has lead me to rebuild my portfolio countless times yet every time I learned something new - <u>from wireframes to flexboxes (and so much more)</u> This website took trial and error and it definitely got better along the way. I believe in individual identity and that the many small choices one makes along their path of creation and destruction leaves a mark to be discovered. The world is everchanging and so are we in the ways we output ourselves to the outside World. For all I've learned through my not so long time in the Netherlands, Eindhoven, Fontys ICT to be smart, efficient, stubborn in the way you output yourself is a constant work in progress...
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development, Design, Coding, Photography, Art</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Photography</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+
+            </div>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+ <!-- NEED TO MAKE SLIDESHOW-->
+ 
+ <p class="section__text__p1">Browse My Recent</p>
+ <h1 class="title">Projects</h1>
+ <div class="slideshow-container">
+     <div class="mySlides">
+         <img src="./assets/pizza-project.png" alt="Project 1" class="project-img">
+         <h2 class="experience-sub-title project-title">Project One</h2>
+         <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+         </div>
+     </div>
+
+     <div class="mySlides">
+         <img src="./assets/cards-project.png" alt="Project 2" class="project-img">
+         <h2 class="experience-sub-title project-title">Project Two</h2>
+         <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+         </div>
+     </div>
+
+     <div class="mySlides">
+         <img src="./assets/other-project.png" alt="Project 3" class="project-img">
+         <h2 class="experience-sub-title project-title">Project Three</h2>
+         <div class="btn-container">
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+         </div>
+     </div>
+ </div>
+
+      </section> <!-- need adjustments-->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:martpet.ok@gmail.com">martpet.ok@gmail.com</a></p> 
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Always Work In Progress / Martin Petkov</p>
+    </footer>
+
+    <script src="function toggleMenu.js"></script>
+    <script src="slide.js"></script>
+  </body>
+</html>
